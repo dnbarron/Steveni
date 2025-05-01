@@ -141,4 +141,5 @@ write_lines(token_peterlee, "Steveni3.txt")
 
 token_text <- read_lines("Steveni.txt")
 token_text2 <- read_lines("Steveni2.txt")
-token_text <- c(token_text, token_text2, token_peterlee)
+token_text3 <- read_lines("Steveni3.txt")
+token_text <- c(token_text, token_text2, token_text3)
